@@ -27,7 +27,7 @@ And you will get the parsed data in the following format:
 
 ```JSON
 {
-	anonymized: 'hashed-version-of-your-text-query'
+	"anonymized": "hashed-version-of-your-text-query"
 }
 ```
 
