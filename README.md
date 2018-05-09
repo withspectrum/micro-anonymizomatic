@@ -1,8 +1,8 @@
 # `micro-anonymizomatic`
 
-Make strings anonymous
+Make strings anonymous.
 
-Running this microservice you won't need a backend solely to get some meta information about links your users submit. Press the deploy button below and show your users what the links they're clicking on contain!
+This utility is not meant to hash passwords. It uses `md5` to hash strings so that the same input will always generate the same output, but it is not possible to reverse engineer the output back to the input.
 
 ## Deployment
 
@@ -27,7 +27,7 @@ And you will get the parsed data in the following format:
 
 ```JSON
 {
-	"anonymized": "hashed-version-of-your-text-query"
+	"text": "hashed-version-of-your-text-query"
 }
 ```
 
