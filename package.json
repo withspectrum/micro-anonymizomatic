@@ -1,0 +1,28 @@
+{
+  "name": "micro-anonymizomatic",
+  "version": "1.0.0",
+  "description": "A microservice to anonymize strings",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon --exec \"npm start\" -e \"js\"",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withspectrum/micro-anonymizomatic"
+  },
+  "author": "Space Program, Inc <hi@spectrum.chat> (https://spectrum.chat)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/withspectrum/micro-anonymizomatic/issues"
+  },
+  "homepage": "https://github.com/withspectrum/micro-anonymizomatic",
+  "dependencies": {
+    "micro": "^7.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "standard": "^8.6.0"
+  }
+}
