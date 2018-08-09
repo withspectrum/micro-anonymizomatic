@@ -23,7 +23,7 @@
     "sha1": "^1.1.1"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0",
+    "nodemon": "^1.18.3",
     "standard": "^8.6.0"
   }
 }
