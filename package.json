@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "A microservice to anonymize strings",
   "main": "index.js",
-  "scripts": {
-    "start": "micro",
-    "dev": "nodemon --exec \"npm start\" -e \"js\"",
-    "test": "standard"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/withspectrum/micro-anonymizomatic"
@@ -19,11 +14,7 @@
   },
   "homepage": "https://github.com/withspectrum/micro-anonymizomatic",
   "dependencies": {
-    "micro": "^7.0.6",
     "sha1": "^1.1.1"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.10",
-    "standard": "^8.6.0"
-  }
+  "devDependencies": {}
 }
